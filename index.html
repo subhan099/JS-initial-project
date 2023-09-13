@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML/JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>what can JS do?</h1>
+    <p id="first">It can change my content even</p>
+    <button type="button" id="btn-1" onclick="onclickfirst()">
+      Don't believe that! CLICK ME
+    </button>
+    <p id="testsum"></p>
+    <div>
+      <p id="result-check"></p>
+      <button type="button" onclick="check()">check</button>
+    </div>
+    <div>
+      <p></p>
+      <button type="button" onclick="_alert()">Generate an alert</button>
+    </div>
+
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+    <!-- <h1>List of Fruits</h1> -->
+    <!-- <ul id="fruitList"> -->
+    <!-- Fruits will be displayed here dynamically -->
+    <!-- </ul> -->
+    <!-- <p id="output"></p> -->
+    <!-- <button onclick="ar()">ar</button> -->
+    <ul id="ul_test"></ul>
+    <button type="button" onclick="traverse()">Traverse</button>
+
+    <p id="trav_arr"></p>
+    <button type="button" onclick="tr()">Traverse an array</button>
+
+    <p id="min"></p>
+    <button type="button" onclick="find_min()">Find min</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
